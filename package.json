@@ -1,0 +1,25 @@
+{
+    "id": "mstodo",
+    "name": "Microsoft To Do",
+    "version": "1.0.1",
+    "description": "Microsoft To Do",
+    "main": "index.js",
+    "author": "Adam Birds <adam.birds@adbtechltd.co.uk>",
+    "repository": "https://github.com/adambirds/recipe-office365-owa",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "https://to-do.office.com/tasks",
+        "serviceName": "Microsoft To Do",
+        "message": "",
+        "popup": [],
+        "hasNotificationSound": true,
+        "hasIndirectMessages": false,
+        "hasTeamID": false,
+        "customURL": false,
+        "hostedOnly": false,
+        "webviewOptions": {
+          "disablewebsecurity": ""
+        },
+        "openDevTools": false
+      }
+}
